@@ -1,0 +1,13 @@
+configs:
+  use_wramup: on
+  use_lora : on  
+  model_path: "/data/chatglm3-6b"
+  dev_path: "dev.json"        
+  output_path: "infer_result.json" 
+  batch_size : 128
+lora_configs:
+  lora_path: "checkpoint-3000" 
+sampling_configs:
+  temperature: 0.8
+  top_p: 0.95
+  max_tokens: 4096

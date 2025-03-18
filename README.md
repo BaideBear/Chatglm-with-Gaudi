@@ -4,6 +4,12 @@
 
 本项目为DataFountain举办的“基于Intel Gaudi AI加速器的大语言模型微调与推理优化”赛题的参赛项目， 最终获决赛三等奖（排名4/942）
 
+[DataFountain比赛连接](https://www.datafountain.cn/competitions/1041/datasets)
+
+本仓库依赖的项目：
+[optimum-habana](https://github.com/huggingface/optimum-habana)
+[Vllm](https://github.com/vllm-project/vllm)
+
 本项目基于Intel Gaudi AI加速平台，编写适用于LoRA微调和推理的脚本，并且对脚本的性能进行调优。本文将从三个方面详细介绍整个工作流程：LoRA微调实现、推理实现、以及性能分析；
 
 ## 项目部署
